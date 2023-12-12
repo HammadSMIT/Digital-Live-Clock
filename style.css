@@ -1,0 +1,36 @@
+@font-face {
+    font-family: hammad-dig;
+    src: url(./digital-7\ \(mono\).ttf);
+}
+
+
+
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: black !important ;
+}
+
+
+.container h1{
+    display: inline-block;
+    color: #00FF00  !important ;
+    font-size: 80px !important;
+    font-family: hammad-dig !important;
+    
+}
+
+.header{
+    color: whitesmoke !important;
+    font-size: 50px !important;
+    
+}
+
+.container #am-or-pm{
+    color: whitesmoke !important;
+    /* font-family: hammad-dig !important; */
+    font-size: large !important;
+    /* margin-left: 20px !important; */
+}
